@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core", "Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Environments", "Unity.Services.Core.Environments.csproj", "{68ECA580-82B7-93CD-702F-240AC64E0FE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{FA68C0A7-A4CF-6EC9-DDF6-4A60F0D49545}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Internal", "Unity.Services.Core.Internal.csproj", "{8EB0DDF7-8D37-1286-002D-9FD6730DB6B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Analytics", "Unity.Services.Core.Analytics.csproj", "{43AFDE2F-69FC-9D73-4336-9B6F58BF8BF7}"
@@ -38,8 +40,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Networking", "Unity.Services.Core.Networking.csproj", "{9447D577-14E0-428F-EA36-FE80170100C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Configuration", "Unity.Services.Core.Configuration.csproj", "{7BACD012-FBC3-2645-58B1-42ED1BD196A6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{FA68C0A7-A4CF-6EC9-DDF6-4A60F0D49545}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlasticSCM.Editor", "Unity.PlasticSCM.Editor.csproj", "{A0363BB0-2D2D-097F-90CA-4E3655C42E0D}"
 EndProject
@@ -107,6 +107,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core", "Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Environments", "Unity.Services.Core.Environments.Player.csproj", "{F24EFE27-DCC9-D1D8-1444-6D03A1F83E55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{14DE77E7-CE01-F34D-5241-A0DEE0A14C41}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Internal", "Unity.Services.Core.Internal.Player.csproj", "{F4074FE0-F601-3470-B605-4F26ADB5FB2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Analytics", "Unity.Services.Core.Analytics.Player.csproj", "{CA3B364A-77DC-FA4B-8AA8-3F8797D8BA24}"
@@ -122,8 +124,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Networking", "Unity.Services.Core.Networking.Player.csproj", "{ECF762BD-75EB-D0E5-7917-E8F004A47A71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Configuration", "Unity.Services.Core.Configuration.Player.csproj", "{AB2A943E-19AF-F791-1DEE-F2ACCE914CE3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{14DE77E7-CE01-F34D-5241-A0DEE0A14C41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -175,6 +175,10 @@ Global
 		{68ECA580-82B7-93CD-702F-240AC64E0FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68ECA580-82B7-93CD-702F-240AC64E0FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68ECA580-82B7-93CD-702F-240AC64E0FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA68C0A7-A4CF-6EC9-DDF6-4A60F0D49545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA68C0A7-A4CF-6EC9-DDF6-4A60F0D49545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA68C0A7-A4CF-6EC9-DDF6-4A60F0D49545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA68C0A7-A4CF-6EC9-DDF6-4A60F0D49545}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8EB0DDF7-8D37-1286-002D-9FD6730DB6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8EB0DDF7-8D37-1286-002D-9FD6730DB6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB0DDF7-8D37-1286-002D-9FD6730DB6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -207,10 +211,6 @@ Global
 		{7BACD012-FBC3-2645-58B1-42ED1BD196A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BACD012-FBC3-2645-58B1-42ED1BD196A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BACD012-FBC3-2645-58B1-42ED1BD196A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA68C0A7-A4CF-6EC9-DDF6-4A60F0D49545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA68C0A7-A4CF-6EC9-DDF6-4A60F0D49545}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA68C0A7-A4CF-6EC9-DDF6-4A60F0D49545}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA68C0A7-A4CF-6EC9-DDF6-4A60F0D49545}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0363BB0-2D2D-097F-90CA-4E3655C42E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A0363BB0-2D2D-097F-90CA-4E3655C42E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0363BB0-2D2D-097F-90CA-4E3655C42E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -343,6 +343,10 @@ Global
 		{F24EFE27-DCC9-D1D8-1444-6D03A1F83E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F24EFE27-DCC9-D1D8-1444-6D03A1F83E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F24EFE27-DCC9-D1D8-1444-6D03A1F83E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DE77E7-CE01-F34D-5241-A0DEE0A14C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DE77E7-CE01-F34D-5241-A0DEE0A14C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DE77E7-CE01-F34D-5241-A0DEE0A14C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DE77E7-CE01-F34D-5241-A0DEE0A14C41}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4074FE0-F601-3470-B605-4F26ADB5FB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4074FE0-F601-3470-B605-4F26ADB5FB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4074FE0-F601-3470-B605-4F26ADB5FB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -375,10 +379,6 @@ Global
 		{AB2A943E-19AF-F791-1DEE-F2ACCE914CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB2A943E-19AF-F791-1DEE-F2ACCE914CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB2A943E-19AF-F791-1DEE-F2ACCE914CE3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14DE77E7-CE01-F34D-5241-A0DEE0A14C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14DE77E7-CE01-F34D-5241-A0DEE0A14C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14DE77E7-CE01-F34D-5241-A0DEE0A14C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14DE77E7-CE01-F34D-5241-A0DEE0A14C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

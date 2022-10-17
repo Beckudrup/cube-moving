@@ -5,7 +5,7 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     public int speed = 5;
-    public int jumpHeight = 4;
+    public int jumpHeight = 6;
     // Update is called once per frame
     void Update()
     {
