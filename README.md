@@ -1,3 +1,4 @@
 # cube-moving
- Movement = arrowkeys /n
+ Movement = arrowkeys 
+ 
  Jump = space
